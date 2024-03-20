@@ -68,7 +68,7 @@ void pop(){
         top = top - 1;
     }
 }
-void peek(){}
+
 void display(){
     int i;
     if(top == -1){
@@ -82,6 +82,7 @@ void display(){
         printf("\n");
     }
 }
+void peek(){}
 void count(){}
 int isEmpty(){}
 int isFull(){}
