@@ -15,7 +15,5 @@ int main(){
     printf("Enter the number of rings :");
     scanf("%d",&n);
     TOH(n,'A','B','C');
-
-
     return 0;
 }
